@@ -5,13 +5,13 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Machine Learning"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Saloni Dash"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -59,7 +59,7 @@ yandex_site_verification :
 twitter:
   username               :
 facebook:
-  username               :
+  username               : salonidash17
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -79,17 +79,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Saloni Dash"
+  avatar           : "/assets/images/bio-image.jpeg"
+  bio              : "Deep Learning Enthusisast."
+  location         : "Birla Institute of Technology and Science Pilani, K.K. Birla Goa Campus"
+  email            : "salonidash77@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "salonidash17"
   foursquare       :
   github           :
   gitlab           :
