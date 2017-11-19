@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "dark" # "air", "contrast", "dark", "dirt", "mint", "
 
 # Site Settings
 locale                   : "en"
-title                    : "sash's blog"
+title                    : "Saloni Dash"
 title_separator          : "-"
 name                     : "Saloni Dash"
 description              : "A website for those interested in everything between Machine Learning and random Musings ."
@@ -241,7 +241,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: splash
+      layout: single
       author_profile: true
       read_time: true
       comments: # true
