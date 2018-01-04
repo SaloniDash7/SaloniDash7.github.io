@@ -1,7 +1,7 @@
 # main links
 main:
 - title: "ABOUT"
-  url : /about/
+  url : /docs/about/
 - title: "MATHEMATICS"
   url: /docs/quick-start-guide/
 - title: "MIRACLES"
