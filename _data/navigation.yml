@@ -1,7 +1,7 @@
 # main links
 main:
 - title: "ABOUT"
-  url : https://salonidash7.github.io/about/
+  url : /about/
 - title: "MATHEMATICS"
   url: /docs/quick-start-guide/
 - title: "MIRACLES"
