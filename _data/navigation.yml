@@ -1,5 +1,9 @@
 # main links
 main:
+- title: "MATHEMATICS"
+  url: /docs/quick-start-guide/
+- title: "MIRACLES"
+  url: /year-archive/
   # title: "Quick-Start Guide"
    # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
