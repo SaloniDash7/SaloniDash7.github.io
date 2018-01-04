@@ -5,11 +5,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "dark" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
+minimal_mistakes_skin    : "dIRT" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
 
 # Site Settings
 locale                   : "en"
-title                    : "Saloni Dash"
+title                    : "MACHINE LEARNING : MATHEMATICS AND MIRACLES"
 title_separator          : "-"
 name                     : "Saloni Dash"
 description              : "A website for those interested in everything between Machine Learning and random Musings ."
