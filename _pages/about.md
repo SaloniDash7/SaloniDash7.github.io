@@ -3,4 +3,4 @@ permalink: /about/
 title: ABOUT
 published: true
 ---
-JOIN ME IN MY QUEST OF MACHINE LEARNING MASTERY, WHERE WE WILL JOURNEY THROUGH SPACES FRAUGHT WITH DECEPTIVE LOCAL MINIMA, BATTLE THE CURSE OF DIMENSIONALITY AND ENGAGE IN BIAS-VARIANCE TRADEOFFS TO MINIMIZE OUR LOSSES.
+Join me in my quest of Machine Learning mastery, where we will journey through spaces fraught with deceptive local minima, battle the curse of dimensionality and engage in Bias-Variance tradeoffs.
