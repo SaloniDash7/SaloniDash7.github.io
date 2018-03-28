@@ -3,7 +3,7 @@ main:
 - title: "ABOUT"
   url: /about/
 - title: "ALL POSTS"
-  url: /about/
+  url: /allPosts/
 - title: "MATHEMATICS"
   url: /docs/quick-start-guide/
 - title: "MIRACLES"
