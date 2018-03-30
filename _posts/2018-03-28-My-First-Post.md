@@ -1,5 +1,7 @@
 ---
 published: true
+layout : single
+author_profile: true
 ---
 **My First Blog Post**
 
