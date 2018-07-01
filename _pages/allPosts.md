@@ -1,6 +1,6 @@
 ---
 permalink: /allPosts/
-layout: home
+layout: posts
 title: ALL POSTS
 published: true
 ---
