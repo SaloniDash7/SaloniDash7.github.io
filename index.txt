@@ -1,0 +1,20 @@
+---
+layout: single
+header:
+  image: /assets/images/Test1.jpg
+
+classes: wide
+
+quote:
+- excerpt: '***"EITHER MATHEMATICS IS TOO BIG FOR THE HUMAN MIND OR THE HUMAN MIND IS MORE THAN A MACHINE."* - KURT GODEL**'
+
+description:
+- excerpt: 'MUSINGS OF A MAVERICK.'
+
+author_profile: true
+published: true
+---
+{% include feature_row id="quote" type="center" %}
+{% include feature_row id="description" type="center" %}
+
+
