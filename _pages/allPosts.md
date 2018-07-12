@@ -5,8 +5,6 @@ title: ALL POSTS
 published: true
 entries_layout: grid
 ---
-{% for post in site.posts limit: 5 %}
+{% for post in site.posts limit: 20 %}
   {% include archive-single.html %}
 {% endfor %}
-
-
