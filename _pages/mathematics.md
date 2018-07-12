@@ -1,8 +1,7 @@
 ---
 title: MATHEMATICS
-layout: category
+layout: archive
 permalink: /categories/mathematics/
-taxonomy: Mathematics
 published: true
 author_profile: true
 ---
