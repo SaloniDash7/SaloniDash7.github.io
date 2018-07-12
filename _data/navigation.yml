@@ -3,9 +3,9 @@ main:
 - title: "ALL POSTS"
   url: /allPosts/
 - title: "MATHEMATICS"
-  url: /docs/quick-start-guide/
+  url: /categories/Mathematics
 - title: "MIRACLES"
-  url: /year-archive/
+  url: /categories/Miracles
 - title: "ABOUT"
   url: /about/
 
