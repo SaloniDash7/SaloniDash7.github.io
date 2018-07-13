@@ -256,6 +256,14 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  maths:
+    output: true
+    permalink: /:collection/:path/
+  miracles:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -269,7 +277,7 @@ defaults:
       read_time: true
       comments: true # true
       share: true
-related: true
+      related: true
 # _pages
   - scope:
       path: "_pages"
@@ -277,3 +285,21 @@ related: true
     values:
       layout: single
       author_profile: true
+# _maths
+  - scope:
+      path: ""
+      type: maths
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+# _miracles
+  - scope:
+      path: ""
+      type: miracles
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
