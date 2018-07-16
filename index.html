@@ -8,25 +8,21 @@ published: true
 <html>
 {% include section-one.html %}
 
-<head>
 <style>
-#bg {
-    /* The image used */
+html { height: 100% }
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
     background-image: url(/assets/images/collage-blur.jpg);
-
-    /* Full height */
-    height: 2000px
-
-    /* Center and scale the image nicely */
-    background-position: center;
     background-repeat: repeat;
     background-size: cover;
 }
 </style>
-</head>
 
 <body>
-<div id="bg"></div>
 {% include section-two.html %}
 </body>
 
