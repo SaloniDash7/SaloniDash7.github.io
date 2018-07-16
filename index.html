@@ -6,37 +6,33 @@ published: true
 ---
 
 <html>
-{% include section-one.html %}
-
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-html { height: 100% }
-body
-{
-    margin: 0;
-    padding: 0;
+body, html {
     height: 100%;
-    overflow: auto;
-    background-image: url(/assets/images/collage-blur.jpg);
-    background-repeat: repeat;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url(assets/images/collage-blur.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 </style>
-
+</head>
 <body>
-<style>
-html { height: 100% }
-body
-{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: auto;
-    background-image: url(/assets/images/collage-blur.jpg);
-    background-repeat: repeat;
-    background-size: cover;
-}
-</style>
-{% include section-two.html %}
-</body>
 
+<div class="bg"></div>
+
+<p>This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+
+</body>
 </html>
