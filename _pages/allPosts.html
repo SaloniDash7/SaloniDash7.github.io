@@ -1,0 +1,18 @@
+---
+permalink: /allPosts/
+layout: archive
+title: ALL POSTS
+published: true
+entries_layout: grid
+---
+{% for post in site.posts limit: 20 %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="all.css">
+</head>
