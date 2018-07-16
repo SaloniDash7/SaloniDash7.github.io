@@ -1,8 +1,8 @@
 ---
-title: MATHEMATICS
+title: MEDITATIONS
 layout: category
-permalink: /categories/mathematics/
-taxonomy: Mathematics
+permalink: /categories/meditations/
+taxonomy: Meditations
 published: true
 author_profile: true
 ---
