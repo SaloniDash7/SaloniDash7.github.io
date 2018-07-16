@@ -1,7 +1,31 @@
 ---
 layout: splash
 classes: wide
-author_profile: true
+feature_row1:
+  - image_path: assets/images/all-rs.jpg
+    alt: "ALL POSTS"
+    title: "ALL POSTS"
+    excerpt: "THIS HAS ALL POSTS"
+    url: /allPosts/
+    btn_label: "VISIT"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: /assets/images/meditations-rs.jpg
+    alt: "MEDITATIONS"
+    title: "MEDITATIONS"
+    excerpt: 'PHILOSOPHICAL STUFF`'
+    url: /categories/mathematics
+    btn_label: "VISIT"
+    btn_class: "btn--primary"
+feature_row3:
+  - image_path: /assets/images/ml-rs.jpg
+    alt: "MACHINE LEARNING"
+    title: "MACHINE LEARNING"
+    excerpt: 'PROJECTS, THEORY RELATED TO ML'
+    url: /categories/miracles
+    btn_label: "VISIT"
+    btn_class: "btn--primary"
+
 published: true
 ---
 
@@ -16,6 +40,9 @@ published: true
 <body>
     {% include section-one.html %}
     {% include section-two.html %}
+    {% include feature_row id="feature_row1" type="left" %}
+    {% include feature_row id="feature_row2" type="right" %}
+    {% include feature_row id="feature_row3" type="left" %}
 </body>
 </html>
     
