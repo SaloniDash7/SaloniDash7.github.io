@@ -1,5 +1,7 @@
 # main links
 main:
+- title: "HOME"
+  url: "https://salonidash7.github.io/#"
 - title: "ALL POSTS"
   url: /allPosts/
 - title: "MEDITATIONS"
