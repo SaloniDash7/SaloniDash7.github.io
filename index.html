@@ -5,34 +5,16 @@ author_profile: true
 published: true
 ---
 
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
-.bg {
-    /* The image used */
-    background-image: url(assets/images/collage-blur.jpg);
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-</style>
+<meta charset="utf-8">
+<title>Responsive Full Background Image</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="responsive-full-background-image.css">
 </head>
 <body>
-
-<div class="bg"></div>
-
-<p>This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
-
+    {% include section-two.html %}
 </body>
 </html>
+    
