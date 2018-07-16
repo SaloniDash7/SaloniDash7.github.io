@@ -3,14 +3,10 @@ main:
 #
 
 sidebar-home:
-- title: "ALL POSTS"
-  url: /allPosts/
-- title: "MATHEMATICS"
-  url: /categories/mathematics/
-- title: "MIRACLES"
-  url: /categories/miracles/
-- title: "ABOUT"
-  url: /about/ 
+  - title: "Parent Page A"
+    children:
+      - title: "Child Page A1"
+        url: /
 
   # title: "Quick-Start Guide"
    # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
