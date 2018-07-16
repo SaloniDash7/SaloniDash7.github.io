@@ -1,12 +1,12 @@
 # main links
 main:
-#
+- title: "ALL POSTS"
+  url: /allPosts/
+- title: "MEDITATIONS"
+  url: /categories/meditations/
+- title: "MACHINE LEARNING"
+  url: /categories/ml/
 
-sidebar-home:
-  - title: "Parent Page A"
-    children:
-      - title: "Child Page A1"
-        url: /
 
   # title: "Quick-Start Guide"
    # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
