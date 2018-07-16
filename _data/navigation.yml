@@ -1,5 +1,8 @@
 # main links
 main:
+#
+
+sidebar-home:
 - title: "ALL POSTS"
   url: /allPosts/
 - title: "MATHEMATICS"
