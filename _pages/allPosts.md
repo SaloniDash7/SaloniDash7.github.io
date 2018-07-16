@@ -16,7 +16,7 @@ body
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
+    overflow: auto;
     background-image: url(/assets/images/all.jpg);
     background-repeat: no-repeat;
     background-size: cover;
