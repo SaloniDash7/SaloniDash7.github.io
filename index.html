@@ -8,26 +8,31 @@ published: true
 <html>
 {% include section-one.html %}
 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-html { height: 100% }
-body
-{
-    margin: 0;
-    padding: 0;
+body, html {
     height: 100%;
-    overflow: auto;
-    background-image: url(/assets/images/collage-blur.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-repeat: repeat;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url(/assets/images/collage.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
-    
 }
 </style>
+</head>
 
 <body class="landing">
+<div class="bg"></div>
 {% include section-two.html %}
 </body>
 
