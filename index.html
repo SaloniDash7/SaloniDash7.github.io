@@ -1,6 +1,11 @@
 ---
 layout: splash
 classes: wide
+feature_row:
+  -  image_path: assets/images/about-rs.jpg
+    alt: "ABOUT"
+    title: "ABOUT"
+    excerpt: "WHAT IS IT? INSERT WRITE UP ABOUT BLOG"
 feature_row1:
   - image_path: assets/images/all-rs.jpg
     alt: "ALL POSTS"
@@ -39,10 +44,10 @@ published: true
 </head>
 <body>
     {% include section-one.html %}
-    {% include section-two.html %}
-    {% include feature_row id="feature_row1" type="left" %}
-    {% include feature_row id="feature_row2" type="right" %}
-    {% include feature_row id="feature_row3" type="left" %}
+    {% include feature_row id="feature_row" type="left" %}
+    {% include feature_row id="feature_row1" type="right" %}
+    {% include feature_row id="feature_row2" type="left" %}
+    {% include feature_row id="feature_row3" type="right" %}
 </body>
 </html>
     
