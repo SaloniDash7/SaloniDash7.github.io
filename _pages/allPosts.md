@@ -9,11 +9,18 @@ entries_layout: grid
   {% include archive-single.html %}
 {% endfor %}
 
-background-image: url(assets/images/all.jpg);
-background-position: center center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-background-color:#464646;
+<style>
+html { height: 100% }
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(/assets/images/all.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>`
 
 
