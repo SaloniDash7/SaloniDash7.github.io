@@ -17,7 +17,7 @@ body
     padding: 0;
     height: 100%;
     overflow: hidden;
-    background-image: url(/assets/images/all.jpg);
+    background-image: url(/assets/images/all-blur.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
