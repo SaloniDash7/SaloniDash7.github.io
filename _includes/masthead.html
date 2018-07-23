@@ -69,6 +69,20 @@
               a {
                 white-space: nowrap;
               }
+              li {
+                display: inline-block;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-family: $sans-serif-narrow;
+                font-size: $type-size-6;
+                text-transform: uppercase;
+              }
+
+              li + li:before {
+                content: "";
+                padding-right: 5px;
+              }
+
           }
           #main {
               transition: margin-left .5s;
@@ -92,7 +106,7 @@
     
         <div id="main">
          <p> <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <!-- <b> MENU </b>  -->  </span>  
-          <span class="page__footer-follow">
+          <span class="social-icons">
                   {% if site.twitter.username %}
                     <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
                   {% endif %}
