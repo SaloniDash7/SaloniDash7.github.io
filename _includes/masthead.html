@@ -72,6 +72,8 @@
                 color:#f1f1f1 ;
                 display: inline-block;
                 margin-left: 100%;
+                text-transform: uppercase;
+                
               }
               li {
                 display: inline-block;
@@ -110,7 +112,7 @@
     
         <div id="main">
          <p> <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <!-- <b> MENU </b>  -->  </span>  
-          <span class="social-icons">
+          <span style="font-size:30px;color:#f1f1f1" class="social-icons">
                   {% if site.twitter.username %}
                   <a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a>
                   {% endif %}
