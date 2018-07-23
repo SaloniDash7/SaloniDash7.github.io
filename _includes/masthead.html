@@ -65,20 +65,24 @@
               font-size: 36px;
               margin-left: 50px;
           }
+          
           .social-icons {
+            overflow-x: hidden;
+            position: fixed;
+            }
 
-              a {
+           .social-icons a {
                 padding-right: 10px;
                 font-weight: bold;
                 white-space: nowrap;
                 text-transform: uppercase;
+              }
                 
-                &:hover {
+                
+           .social-icons a:hover {
                   color: $masthead-link-color-hover;
                   }
                 
-            }
-          }
           #main {
               transition: margin-left .5s;
               padding: 2px;
