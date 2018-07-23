@@ -97,16 +97,16 @@
     
         <div id="main">
          <p> <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <!-- <b> MENU </b>  -->  </span> 
-           <span style="font-size:30px" class="social-icons"> 
+           <span style="font-size:30px;position:absolute: right:0px;" class="social-icons"> 
             
             {% if site.twitter.username %}
              <a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true" style="color:white"></i> <font color="white"> Twitter </font> </a>
             {% endif %}
             {% if site.facebook.username %}
-             <a href="https://www.facebook.com/{{ site.facebook.username }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true" style="color:white"></i> <font color="white"> Facebook </font> </a>
+             <a href="https://www.facebook.com/{{ site.facebook.username }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true" style="color:white"></i> <font color="white"> FACEBOOK </font> </a>
             {% endif %}
             {% if site.author.github %}
-             <a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>
+             <a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true" style="color:white"></i> <font color="white"> GITHUB </font></a>
             {% endif %}
             {% if site.author.gitlab %}
              <a href="https://gitlab.com/{{ site.author.gitlab }}"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> Gitlab</a>
@@ -114,7 +114,7 @@
             {% if site.author.bitbucket %}
              <a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a>
             {% endif %}
-            <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a>
+            <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true" style="color:white"></i> <font color="white"> {{ site.data.ui-text[site.locale].feed_label | default: "FEED" }}</font> </a>
            </span>  </p>
         </div>
     
