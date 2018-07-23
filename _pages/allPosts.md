@@ -4,6 +4,7 @@ layout: archive
 title: ALL POSTS
 published: true
 entries_layout: grid
+author_profile: false
 ---
 {% for post in site.posts limit: 20 %}
   {% include archive-single.html %}
