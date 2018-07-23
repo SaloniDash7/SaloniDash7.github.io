@@ -112,24 +112,7 @@
     
         <div id="main">
          <p> <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <!-- <b> MENU </b>  -->  </span>  
-          <span style="font-size:30px;color:#f1f1f1" class="social-icons">
-                  {% if site.twitter.username %}
-                  <a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a>
-                  {% endif %}
-                  {% if site.facebook.username %}
-                  <a href="https://www.facebook.com/{{ site.facebook.username }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a>
-                  {% endif %}
-                  {% if site.author.github %}
-                  <a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>
-                  {% endif %}
-                  {% if site.author.gitlab %}
-                  <a href="https://gitlab.com/{{ site.author.gitlab }}"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> Gitlab</a>
-                  {% endif %}
-                  {% if site.author.bitbucket %}
-                   <a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a>
-                  {% endif %}
-                  <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a>
-            </span> </p>
+        </p>
         </div>
     
         
