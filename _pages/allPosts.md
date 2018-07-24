@@ -65,9 +65,11 @@ body
         </div>
      
   <div class="main">
-    {% for post in site.posts limit: 20 %}
-      {% include archive-single.html %}
-    {% endfor %}
+    <div class="entries-{{ page.entries_layout }}">
+      {% for post in site.posts limit: 20 %}
+        {% include archive-single.html %}
+      {% endfor %}
+  </div>
   </div>
   </body>
 </html>  
