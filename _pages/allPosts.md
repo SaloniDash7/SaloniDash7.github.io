@@ -59,9 +59,9 @@ body
 <body>
    <div id="mySidenav" class="sidenav">
      <a href="https://salonidash7.github.io/#">HOME</a>
-     <a href=/allPosts/>ALL</a>
-     <a href=/categories/meditations/>MEDITATIONS</a>
-     <a href=/categories/ml/>MACHINE LEARNING</a>
+     <a href="https://salonidash7.github.io/allPosts/">ALL</a>
+     <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
+     <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a>
         </div>
      
   <div class="main">
