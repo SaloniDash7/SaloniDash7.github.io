@@ -45,8 +45,13 @@
             <!-- <p style="color:rgb(210,180,140)"> ABOUT </p>
            <a href="#two" style="font-size:40px;color:rgb(210,180,140)" class="button" title="LEARN MORE"> &darr; </a> -->
         </div>
-       <div> <a href="#feature_row" class="arrow"> <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i> </a> </div>
+       <div class="arrow" onclick="myFunction()"> <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i> </div>
         
     </div>
+    <script>
+        function myFunction() {
+            document.getElementsByClassName("feature__item--left")[0].scrollIntoView()
+        }
+    </script>
 </body>
 </html>
