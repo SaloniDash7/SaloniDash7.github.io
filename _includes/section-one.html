@@ -33,7 +33,7 @@
                 bottom: 120px;
                 display: block;
                 height: 50px;
-                left: 55%;
+                left: 52%;
                 margin-left: -25px;
                 position: absolute;
                 width: 50px;
@@ -52,7 +52,7 @@
     </div>
     <script>
         function myFunction() {
-            document.getElementsByClassName("feature__item--left")[0].scrollIntoView()
+            document.getElementsByClassName("feature__item--left")[0].scrollIntoView({block: 'end',behavior:'smooth'})
         }
     </script>
 </body>
