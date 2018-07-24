@@ -59,7 +59,7 @@ body
         border-bottom:3px solid white;
         position: absolute;
         left: 34%;
-        top: 45%;
+        top: 11%;
         -webkit-animation: increase 3s;
         -moz-animation:    increase 3s; 
         -o-animation:      increase 3s; 
@@ -73,7 +73,7 @@ body
     border-bottom:3px solid white;
     position: absolute;
     right: 32%;
-    top: 60%;
+    top: 22%;
     -webkit-animation: increase 3s;
     -moz-animation:    increase 3s; 
     -o-animation:      increase 3s; 
