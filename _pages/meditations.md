@@ -1,5 +1,5 @@
 ---
-title: MEDITATIONS
+title: 
 layout: archive
 permalink: /categories/meditations/
 taxonomy: Meditations
@@ -17,7 +17,7 @@ entries_layout: grid
     padding: 0; 
     height: 100%; 
     overflow: hidden; 
-    background-image: url(/assets/images/meditations-blur.jpg); 
+    background-image: url(/assets/images/meditations-blur-2.jpg); 
     background-repeat: no-repeat; 
     background-size: cover; 
     } 
