@@ -56,9 +56,9 @@ body
    .line-up {
         height:0px;
         width:1px;
-        border-bottom:3px solid #000059;
+        border-bottom:3px solid #756666;
         position: absolute;
-        left: 35%;
+        left: 34%;
         top: 11%;
         -webkit-animation: increase 3s;
         -moz-animation:    increase 3s; 
@@ -70,9 +70,9 @@ body
   .line-down {
     height:0px;
     width:1px;
-    border-bottom:3px solid #000059;
+    border-bottom:3px solid #756666;
     position: absolute;
-    right: 33%;
+    right: 34%;
     top: 23%;
     -webkit-animation: increase 3s;
     -moz-animation:    increase 3s; 
@@ -84,7 +84,7 @@ body
 
   @keyframes increase {
   100% {
-      width: 600px;
+      width: 595px;
           }
      }
 </style>
