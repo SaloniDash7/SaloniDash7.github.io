@@ -52,7 +52,41 @@ body
               margin-left: 300px; 
               font-size: 28px; 
               padding: 0px 10px;
-            }     
+            }  
+   .line-up {
+        height:0px;
+        width:1px;
+        border-bottom:3px solid white;
+        position: absolute;
+        left: 34%;
+        top: 45%;
+        -webkit-animation: increase 3s;
+        -moz-animation:    increase 3s; 
+        -o-animation:      increase 3s; 
+        animation:         increase 3s; 
+        animation-fill-mode: forwards;
+      }
+
+  .line-down {
+    height:0px;
+    width:1px;
+    border-bottom:3px solid white;
+    position: absolute;
+    right: 32%;
+    top: 60%;
+    -webkit-animation: increase 3s;
+    -moz-animation:    increase 3s; 
+    -o-animation:      increase 3s; 
+    animation:         increase 3s; 
+    animation-fill-mode: forwards;
+    animation-direction: backwards;
+  }
+
+  @keyframes increase {
+  100% {
+      width: 610px;
+          }
+     }
 </style>
 </head>
 
@@ -65,10 +99,13 @@ body
         </div>
      
   <div class="main">
+  <div class="line-up"></div>
+  <div class="line-down"></div>
     <div class="entries-{{ page.entries_layout }}">
       {% for post in site.posts limit: 20 %}
         {% include archive-single.html type=page.entries_layout %}
       {% endfor %}
+      
   </div>
   </div>
   </body>
