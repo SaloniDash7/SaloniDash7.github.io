@@ -1,6 +1,6 @@
 ---
 title: MACHINE LEARNING
-layout: category
+layout: archive
 permalink: /categories/ml/
 taxonomy: Machine-Learning
 published: true
@@ -52,7 +52,7 @@ entries_layout: grid
               font-size: 28px; 
               padding: 0px 10px;
             }     
-</style>
+  </style>
 </head>
 
 <body>
@@ -64,8 +64,10 @@ entries_layout: grid
         </div>
      
   <div class="main">
+    <div class="entries-{{ page.entries_layout }}">
+  {% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %}
+</div>
   </div>
   </body>
 </html>  
     
- </style> 
