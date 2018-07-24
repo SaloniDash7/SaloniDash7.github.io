@@ -1,6 +1,6 @@
 ---
 title: MEDITATIONS
-layout: category
+layout: archive
 permalink: /categories/meditations/
 taxonomy: Meditations
 published: true
