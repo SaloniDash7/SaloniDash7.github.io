@@ -1,7 +1,7 @@
 ---
 permalink: /allPosts/
 layout: archive
-title: ALL POSTS
+title: 
 published: true
 entries_layout: grid
 author_profile: false
@@ -17,7 +17,7 @@ body
     padding: 0;
     height: 100%;
     overflow: hidden;
-    background-image: url(/assets/images/all-blur.jpg);
+    background-image: url(/assets/images/all-blur-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Lato", sans-serif;
