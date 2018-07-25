@@ -5,7 +5,7 @@ permalink: /categories/ml/
 taxonomy: Machine-Learning
 published: true
 author_profile: false
-entries_layout: grid
+entries_layout: list
 ---
 <html>
   <head>
@@ -51,7 +51,41 @@ entries_layout: grid
               margin-left: 300px; 
               font-size: 28px; 
               padding: 0px 10px;
-            }     
+            }  
+   .line-up {
+        height:0px;
+        width:1px;
+        border-bottom:3px solid #756666;
+        position: absolute;
+        left: 34%;
+        top: 11%;
+        -webkit-animation: increase 3s;
+        -moz-animation:    increase 3s; 
+        -o-animation:      increase 3s; 
+        animation:         increase 3s; 
+        animation-fill-mode: forwards;
+      }
+
+  .line-down {
+    height:0px;
+    width:1px;
+    border-bottom:3px solid #756666;
+    position: absolute;
+    right: 34%;
+    top: 23%;
+    -webkit-animation: increase 3s;
+    -moz-animation:    increase 3s; 
+    -o-animation:      increase 3s; 
+    animation:         increase 3s; 
+    animation-fill-mode: forwards;
+    animation-direction: backwards;
+  }
+
+  @keyframes increase {
+  100% {
+      width: 595px;
+          }
+     }
   </style>
 </head>
 
@@ -64,7 +98,9 @@ entries_layout: grid
         </div>
      
   <div class="main">
-    <div class="entries-{{ page.entries_layout }}">
+  <div class="line-up"></div>
+  <div class="line-down"></div>
+  <div class="entries-{{ page.entries_layout }}">
   {% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %}
 </div>
   </div>
