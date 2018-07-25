@@ -69,7 +69,7 @@ entries_layout: list
   .line-down {
     height:0px;
     width:1px;
-    border-bottom:3px solid #756666;
+    border-bottom:3px solid #010326;
     position: absolute;
     right: 30%;
     top: 18%;
