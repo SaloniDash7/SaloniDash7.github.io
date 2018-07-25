@@ -55,9 +55,9 @@ entries_layout: list
    .line-up {
         height:0px;
         width:1px;
-        border-bottom:3px solid #010326;
+        border-bottom:3px solid #530762;
         position: absolute;
-        left: 38%;
+        left: 36.5%;
         top: 7%;
         -webkit-animation: increase 3s;
         -moz-animation:    increase 3s; 
@@ -69,7 +69,7 @@ entries_layout: list
   .line-down {
     height:0px;
     width:1px;
-    border-bottom:3px solid #010326;
+    border-bottom:3px solid #530762;
     position: absolute;
     right: 35%;
     top: 20%;
