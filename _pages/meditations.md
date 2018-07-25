@@ -72,7 +72,7 @@ entries_layout: list
     border-bottom:3px solid #010326;
     position: absolute;
     right: 30%;
-    top: 18%;
+    top: 20%;
     -webkit-animation: increase 3s;
     -moz-animation:    increase 3s; 
     -o-animation:      increase 3s; 
@@ -83,7 +83,7 @@ entries_layout: list
 
   @keyframes increase {
   100% {
-      width: 590px;
+      width: 550px;
           }
      }
   </style>
