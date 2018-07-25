@@ -5,7 +5,7 @@ permalink: /categories/meditations/
 taxonomy: Meditations
 published: true
 author_profile: false
-entries_layout: grid
+entries_layout: list
 ---
 <html>
   <head>
@@ -98,7 +98,9 @@ entries_layout: grid
         </div>
      
   <div class="main">
-    <div class="entries-{{ page.entries_layout }}">
+  <div class="line-up"></div>
+  <div class="line-down"></div>
+  <div class="entries-{{ page.entries_layout }}">
   {% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %}
 </div>
   </div>
