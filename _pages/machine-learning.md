@@ -55,10 +55,10 @@ entries_layout: list
    .line-up {
         height:0px;
         width:1px;
-        border-bottom:3px solid #756666;
+        border-bottom:3px solid #010326;
         position: absolute;
-        left: 34%;
-        top: 11%;
+        left: 38%;
+        top: 7%;
         -webkit-animation: increase 3s;
         -moz-animation:    increase 3s; 
         -o-animation:      increase 3s; 
@@ -71,8 +71,8 @@ entries_layout: list
     width:1px;
     border-bottom:3px solid #756666;
     position: absolute;
-    right: 34%;
-    top: 23%;
+    right: 30%;
+    top: 18%;
     -webkit-animation: increase 3s;
     -moz-animation:    increase 3s; 
     -o-animation:      increase 3s; 
@@ -83,7 +83,7 @@ entries_layout: list
 
   @keyframes increase {
   100% {
-      width: 595px;
+      width: 590px;
           }
      }
   </style>
