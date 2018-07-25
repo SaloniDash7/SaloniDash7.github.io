@@ -103,7 +103,7 @@ body
   <div class="line-down"></div>
     <div class="entries-{{ page.entries_layout }}">
       {% for post in site.posts limit: 20 %}
-        {% include archive-single.html type=page.entries_layout %}
+        {% include archive-single.html  %}
       {% endfor %}
       
   </div>
