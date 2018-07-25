@@ -51,7 +51,41 @@ entries_layout: grid
               margin-left: 300px; 
               font-size: 28px; 
               padding: 0px 10px;
-            }     
+            }  
+   .line-up {
+        height:0px;
+        width:1px;
+        border-bottom:3px solid #010326;
+        position: absolute;
+        left: 38%;
+        top: 7%;
+        -webkit-animation: increase 3s;
+        -moz-animation:    increase 3s; 
+        -o-animation:      increase 3s; 
+        animation:         increase 3s; 
+        animation-fill-mode: forwards;
+      }
+
+  .line-down {
+    height:0px;
+    width:1px;
+    border-bottom:3px solid #010326;
+    position: absolute;
+    right: 30%;
+    top: 18%;
+    -webkit-animation: increase 3s;
+    -moz-animation:    increase 3s; 
+    -o-animation:      increase 3s; 
+    animation:         increase 3s; 
+    animation-fill-mode: forwards;
+    animation-direction: backwards;
+  }
+
+  @keyframes increase {
+  100% {
+      width: 590px;
+          }
+     }
   </style>
 </head>
 
