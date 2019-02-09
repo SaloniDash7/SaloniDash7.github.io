@@ -98,8 +98,8 @@ entries_layout: list
         </div>
      
   <div class="main">
-  <div class="line-up"></div>
-  <div class="line-down"></div>
+  <!--<div class="line-up"></div>
+  <div class="line-down"></div> -->
   <div class="entries-{{ page.entries_layout }}">
   {% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %}
 </div>
