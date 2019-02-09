@@ -99,8 +99,8 @@ body
         </div>
      
   <div class="main">
-  <div class="line-up"></div>
-  <div class="line-down"></div>
+  <!--<div class="line-up"></div>
+  <div class="line-down"></div> -->
     <div class="entries-{{ page.entries_layout }}">
       {% for post in site.posts limit: 20 %}
         {% include archive-single.html  %}
