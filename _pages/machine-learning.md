@@ -18,7 +18,7 @@ entries_layout: list
     padding: 0; 
     height: 100%; 
     overflow: hidden; 
-    background-image: url(/assets/images/ml-blur-2.jpg); 
+    background-image: url(/assets/images/ml-blur2.jpg); 
     background-repeat: no-repeat;
     background-size: cover; 
     }
