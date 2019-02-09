@@ -91,7 +91,7 @@
         </div>
         <div class="line-up"></div>
         <div class="line-down"></div>
-       <div id="initalHidden" style="display:none">
+       <div id="target" style="display:none">
         <div class="arrow" onclick="myFunction()"> <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i> </div>
        </div>
         
@@ -100,9 +100,12 @@
         function myFunction() {
             document.getElementsByClassName("feature__item--right")[0].scrollIntoView({block: 'end',behavior:'smooth'})
         }
-        $(document).ready(function() {
-            $("#initalHidden").show();
+        $(function(){
+        setTimeout(function(){ showTarget(); }, 1000);
         });
+        function showTarget(){
+           $("#target").show();
+   }
     </script>
 </body>
 </html>
