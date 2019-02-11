@@ -15,11 +15,14 @@ body
 {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     background-image: url(/assets/images/all-blur2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    position: relative;
+  
     font-family: "Lato", sans-serif;
 }
 
