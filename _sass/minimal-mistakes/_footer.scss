@@ -11,8 +11,10 @@
   height: 100%;
   clear: both;
   /* sticky footer fix start */
-  position: fixed;
+  position: absolute;
   bottom: 0;
+  left: 0;
+  right:0;
   height: auto;
   /* sticky footer fix end */
   margin-top: 0;
@@ -68,8 +70,8 @@
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     text-transform: uppercase;
