@@ -16,11 +16,12 @@ body
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow: hidden;
-    background-image: url(/assets/images/all-blur2.jpg);
+    overflow: auto;
+    background-image: url(/assets/images/all-blur.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
     position: relative;
   
     font-family: "Lato", sans-serif;
