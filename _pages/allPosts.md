@@ -3,7 +3,7 @@ permalink: /allPosts/
 layout: archive
 title: 
 published: true
-entries_layout: grid
+entries_layout: list
 author_profile: false
 ---
 <html>
