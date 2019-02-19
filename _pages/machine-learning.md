@@ -1,11 +1,27 @@
 ---
 title: 
-layout: archive
+layout: splash
+classes: wide
 permalink: /categories/ml/
-taxonomy: Machine-Learning
+feature_row1:
+  - image_path: assets/images/all-rs.jpg
+    alt: "THEORY"
+    title: "THEORY"
+    excerpt: "THEORETICAL POSTS"
+    url: /allPosts/
+    btn_label: "VISIT"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: /assets/images/meditations-rs.jpg
+    alt: "CODE"
+    title: "JUST SHOW ME THE CODE"
+    excerpt: "PRACTICAL STUFF"
+    url: /categories/meditations/
+    btn_label: "VISIT"
+    btn_class: "btn--primary"
 published: true
 author_profile: false
-entries_layout: list
+
 ---
 <html>
   <head>
@@ -52,40 +68,7 @@ entries_layout: list
               font-size: 28px; 
               padding: 0px 10px;
             }  
-   .line-up {
-        height:0px;
-        width:1px;
-        border-bottom:3px solid #010326;
-        position: absolute;
-        left: 38%;
-        top: 7%;
-        -webkit-animation: increase 3s;
-        -moz-animation:    increase 3s; 
-        -o-animation:      increase 3s; 
-        animation:         increase 3s; 
-        animation-fill-mode: forwards;
-      }
-
-  .line-down {
-    height:0px;
-    width:1px;
-    border-bottom:3px solid #010326;
-    position: absolute;
-    right: 30%;
-    top: 18%;
-    -webkit-animation: increase 3s;
-    -moz-animation:    increase 3s; 
-    -o-animation:      increase 3s; 
-    animation:         increase 3s; 
-    animation-fill-mode: forwards;
-    animation-direction: backwards;
-  }
-
-  @keyframes increase {
-  100% {
-      width: 590px;
-          }
-     }
+   
   </style>
 </head>
 
@@ -98,11 +81,9 @@ entries_layout: list
         </div>
      
   <div class="main">
-  <!--<div class="line-up"></div>
-  <div class="line-down"></div> -->
-  <div class="entries-{{ page.entries_layout }}">
-  {% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %}
-</div>
+  {% include feature_row id="feature_row1" type="right" %}
+  {% include feature_row id="feature_row2" type="left" %}
+  
   </div>
   </body>
 </html>  
