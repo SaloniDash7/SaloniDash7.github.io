@@ -30,13 +30,12 @@ author_profile: false
   html { height: 100% } 
   body 
   { 
-    margin: 0; 
-    padding: 0; 
-    height: 100%; 
-    overflow: hidden; 
-    background-image: url(/assets/images/ml-blur2.jpg); 
-    background-repeat: no-repeat;
-    background-size: cover; 
+  background-image: url(assets/images/ml-blur.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
     }
   .sidenav {
               height: 100%;
