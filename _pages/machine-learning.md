@@ -38,6 +38,14 @@ author_profile: false
   background-color:#464646;
   height: 100vh;
     }
+  #banner {
+            height: 100vh;
+            background-image: url(/assets/images/ml-title.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 95%;
+            background-position: center center;
+            position: relative;
+        }
   .sidenav {
               height: 100%;
               width: 300px;
@@ -81,6 +89,7 @@ author_profile: false
         </div>
      
   <div class="main">
+  <div id="banner"> </div>
   {% include feature_row id="feature_row1" type="right" %}
   {% include feature_row id="feature_row2" type="left" %}
   
