@@ -30,7 +30,7 @@ author_profile: false
   html { height: 100% } 
   body 
   { 
-  background-image: url(assets/images/ml-blur.jpg);
+  background-image: /assets/images/ml-blur.jpg ;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
