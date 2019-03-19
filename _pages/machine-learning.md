@@ -40,10 +40,10 @@ author_profile: false
   height: 100vh;
     }
   #banner {
-            height: 20vh;
+            height: 10vh;
             background-image: url(/assets/images/ml-title.png);
             background-repeat: no-repeat;
-            background-size: 70% 95%;
+            background-size: 60% 95%;
             background-position: center center;
             position: relative;
         }
