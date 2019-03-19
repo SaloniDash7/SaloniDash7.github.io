@@ -1,6 +1,7 @@
 ---
 title: 
-layout: splash
+layout: archive
+taxonomy: Machine-Learning
 classes: wide
 permalink: /categories/ml/
 feature_row1:
