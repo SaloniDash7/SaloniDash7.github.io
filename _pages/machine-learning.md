@@ -39,7 +39,7 @@ author_profile: false
   height: 100vh;
     }
   #banner {
-            height: 100vh;
+            height: 20vh;
             background-image: url(/assets/images/ml-title.jpg);
             background-repeat: no-repeat;
             background-size: 100% 95%;
