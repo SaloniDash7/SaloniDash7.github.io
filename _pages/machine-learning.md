@@ -42,7 +42,7 @@ author_profile: false
             height: 20vh;
             background-image: url(/assets/images/ml-title.png);
             background-repeat: no-repeat;
-            background-size: 100% 95%;
+            background-size: 70% 95%;
             background-position: center center;
             position: relative;
         }
