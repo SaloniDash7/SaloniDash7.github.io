@@ -2,22 +2,6 @@
 layout: archive
 taxonomy: Machine-Learning
 permalink: /categories/ml/
-feature_row1:
-  - image_path: assets/images/all-rs.jpg
-    alt: "THEORY"
-    title: "THEORY"
-    excerpt: "THEORETICAL POSTS"
-    url: /allPosts/
-    btn_label: "VISIT"
-    btn_class: "btn--primary"
-feature_row2:
-  - image_path: /assets/images/meditations-rs.jpg
-    alt: "CODE"
-    title: "JUST SHOW ME THE CODE"
-    excerpt: "PRACTICAL STUFF"
-    url: /categories/meditations/
-    btn_label: "VISIT"
-    btn_class: "btn--primary"
 published: true
 author_profile: false
 
