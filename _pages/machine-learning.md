@@ -60,7 +60,7 @@ author_profile: false
     margin-left: 50px;
 }
 .main {
-              margin-left: 30vh; 
+              margin-left: 90vh; 
               font-size: 4vh; 
               padding: 0px 10px;
             }  
@@ -91,12 +91,12 @@ author_profile: false
   </div>
   <script>
     function openNav() {
-        document.getElementById("mySidenav").style.width = "60vh";
-        document.getElementById("main").style.marginLeft = "60vh";
+        document.getElementById("mySidenav").style.width = "30vh";
+        document.getElementById("main").style.marginLeft = "90vh";
     }
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft= "30vh";
+        document.getElementById("main").style.marginLeft= "90vh";
     }
 </script>
   </body>
