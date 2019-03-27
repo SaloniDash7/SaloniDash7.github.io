@@ -1,6 +1,6 @@
 ---
 title: 
-layout: splash
+layout: archive
 taxonomy: Machine-Learning
 classes: wide
 permalink: /categories/ml/
@@ -28,7 +28,6 @@ author_profile: false
   <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style> 
-  html { height: 100% } 
   body 
   { 
   background-image: url(/assets/images/ml-blur.jpg) ;
@@ -37,7 +36,6 @@ author_profile: false
   background-attachment: fixed;
   background-size: cover;
   background-color:#464646;
-  height: 100vh;
     }
   #banner {
             height: 10vh;
@@ -91,9 +89,9 @@ author_profile: false
      
   <div class="main">
   <div id="banner" > </div>
-  {% include feature_row id="feature_row1" type="left" %}
-  {% include feature_row id="feature_row2" type="left" %} 
-  <!--{% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %} -->
+  <!--{% include feature_row id="feature_row1" type="left" %}
+  {% include feature_row id="feature_row2" type="left" %}  -->
+  {% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %}
   </div>
   </body>
 </html>  
