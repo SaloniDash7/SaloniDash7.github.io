@@ -74,7 +74,7 @@ author_profile: false
    
      
   <div id="main">
-  div id="mySidenav" class="sidenav">
+  <div id="mySidenav" class="sidenav">
    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
      <a href="https://salonidash7.github.io/#">HOME</a>
      <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a>
