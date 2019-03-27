@@ -89,7 +89,9 @@ author_profile: false
   <div id="banner" > </div>
   <!--{% include feature_row id="feature_row1" type="left" %}
   {% include feature_row id="feature_row2" type="left" %}  -->
+  <div class="entries-{{ page.entries_layout }}">
   {% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %}
+  </div>
   </div>
   </body>
 </html>  
