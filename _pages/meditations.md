@@ -11,7 +11,7 @@ entries_layout: list
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>  
   body {
-    background-image: url(/assets/images/meditations-blur2.jpg); 
+    background-image: url(/assets/images/meditations-blur.jpg); 
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
