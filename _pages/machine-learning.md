@@ -90,7 +90,7 @@ author_profile: false
         </div>
      
   <div class="main">
-  <!--<div id="banner"> </div> -->
+  <div id="banner"> 
   {% include feature_row id="feature_row1" type="left" %}
   {% include feature_row id="feature_row2" type="left" %} 
   <!--{% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %} -->
