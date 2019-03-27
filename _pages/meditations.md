@@ -1,5 +1,4 @@
 ---
-title: 
 layout: archive
 permalink: /categories/meditations/
 taxonomy: Meditations
@@ -10,21 +9,27 @@ entries_layout: list
 <html>
   <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style> 
-  html { height: 100% } 
+<style>  
   body {
-    margin: 0; 
-    padding: 0; 
-    height: 100%; 
-    overflow: hidden; 
     background-image: url(/assets/images/meditations-blur2.jpg); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#464646;
+    height: 80vh;
     } 
-    
+ #banner {
+            height: 10vh;
+            background-image: url(/assets/images/meditations-title.png);
+            background-repeat: no-repeat;
+            background-size: 60% 95%;
+            background-position: center center;
+            position: relative;
+        }
  .sidenav {
               height: 100%;
-              width: 300px;
+              width: 30vh;
               position: fixed;
               z-index: 1;
               top: 0;
@@ -38,7 +43,7 @@ entries_layout: list
    .sidenav a {
               padding: 8px 8px 8px 32px;
               text-decoration: none;
-              font-size: 25px;
+              font-size: 3vh;
               color:#f1f1f1 ;
               display: block;
               transition: 0.3s;
@@ -48,54 +53,19 @@ entries_layout: list
               color: rgba(48, 227, 202, 0.3);
           }
    .main {
-              margin-left: 300px; 
-              font-size: 28px; 
+              margin-left: 30vh; 
+              font-size: 4vh; 
               padding: 0px 10px;
             }  
-   .line-up {
-        height:0px;
-        width:1px;
-        border-bottom:3px solid #530762;
-        position: absolute;
-        left: 36.5%;
-        top: 7%;
-        -webkit-animation: increase 3s;
-        -moz-animation:    increase 3s; 
-        -o-animation:      increase 3s; 
-        animation:         increase 3s; 
-        animation-fill-mode: forwards;
-      }
-
-  .line-down {
-    height:0px;
-    width:1px;
-    border-bottom:3px solid #530762;
-    position: absolute;
-    right: 35%;
-    top: 20%;
-    -webkit-animation: increase 3s;
-    -moz-animation:    increase 3s; 
-    -o-animation:      increase 3s; 
-    animation:         increase 3s; 
-    animation-fill-mode: forwards;
-    animation-direction: backwards;
-  }
-
-  @keyframes increase {
-  100% {
-      width: 525px;
-          }
-     }
   </style>
 </head>
 
 <body>
    <div id="mySidenav" class="sidenav">
      <a href="https://salonidash7.github.io/#">HOME</a>
-     <a href="https://salonidash7.github.io/allPosts/">ALL</a>
-     <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
      <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a>
-        </div>
+     <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
+       </div>
      
   <div class="main">
   <!--<div class="line-up"></div>
