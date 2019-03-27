@@ -72,14 +72,15 @@ author_profile: false
 
 <body>
    
-     
-  <div id="main">
-  <div id="mySidenav" class="sidenav">
-   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+   <div id="mySidenav" class="sidenav">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
      <a href="https://salonidash7.github.io/#">HOME</a>
      <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a>
      <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
     </div>
+     
+  <div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
   <div id="banner" > </div>
   <!--{% include feature_row id="feature_row1" type="left" %}
   {% include feature_row id="feature_row2" type="left" %}  -->
