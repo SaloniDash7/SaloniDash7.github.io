@@ -18,7 +18,7 @@ author_profile: false
   background-attachment: fixed;
   background-size: cover;
   background-color:#464646;
-  height: 100vh;
+  height: 80vh;
     }
   #banner {
             height: 10vh;
@@ -30,7 +30,7 @@ author_profile: false
         }
   .sidenav {
               height: 100%;
-              width: 300px;
+              width: 30vh;
               position: fixed;
               z-index: 1;
               top: 0;
@@ -44,7 +44,7 @@ author_profile: false
    .sidenav a {
               padding: 8px 8px 8px 32px;
               text-decoration: none;
-              font-size: 25px;
+              font-size: 3vh;
               color:#f1f1f1 ;
               display: block;
               transition: 0.3s;
@@ -54,10 +54,26 @@ author_profile: false
               color: rgba(48, 227, 202, 0.3);
           }
    .main {
-              margin-left: 300px; 
-              font-size: 28px; 
+              margin-left: 30vh; 
+              font-size: 4vh; 
               padding: 0px 10px;
             }  
+    @media screen and (max-width: 700px) {
+    .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    }
+      .sidenav a {float: left;}
+      div.content {margin-left: 0;}
+    }
+
+@media screen and (max-width: 400px) {
+  .sidenav a {
+    text-align: center;
+    float: none;
+  }
+}
    
   </style>
 </head>
