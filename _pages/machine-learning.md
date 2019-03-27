@@ -18,6 +18,7 @@ author_profile: false
   background-attachment: fixed;
   background-size: cover;
   background-color:#464646;
+  min-height: 80vh
     }
   #banner {
             height: 10vh;
