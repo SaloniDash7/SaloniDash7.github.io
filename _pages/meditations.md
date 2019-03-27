@@ -23,7 +23,7 @@ entries_layout: list
             height: 10vh;
             background-image: url(/assets/images/meditations-title.png);
             background-repeat: no-repeat;
-            background-size: 60% 95%;
+            background-size: 50% 95%;
             background-position: center center;
             position: relative;
         }
