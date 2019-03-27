@@ -1,6 +1,6 @@
 ---
 title: 
-layout: archive
+layout: splash
 taxonomy: Machine-Learning
 classes: wide
 permalink: /categories/ml/
