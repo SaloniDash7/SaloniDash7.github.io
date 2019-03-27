@@ -17,7 +17,6 @@ entries_layout: list
     background-attachment: fixed;
     background-size: cover;
     background-color:#464646;
-    height: 80vh;
     } 
  #banner {
             height: 10vh;
