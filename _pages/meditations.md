@@ -68,6 +68,7 @@ entries_layout: list
        </div>
      
   <div class="main">
+  <div id="banner" > </div>
   <!--<div class="line-up"></div>
   <div class="line-down"></div> -->
   <div class="entries-{{ page.entries_layout }}">
