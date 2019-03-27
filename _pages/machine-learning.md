@@ -1,8 +1,6 @@
 ---
-title: 
 layout: archive
 taxonomy: Machine-Learning
-classes: wide
 permalink: /categories/ml/
 feature_row1:
   - image_path: assets/images/all-rs.jpg
@@ -36,6 +34,7 @@ author_profile: false
   background-attachment: fixed;
   background-size: cover;
   background-color:#464646;
+  height: 100vh;
     }
   #banner {
             height: 10vh;
