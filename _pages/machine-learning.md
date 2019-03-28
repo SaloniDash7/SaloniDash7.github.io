@@ -67,9 +67,10 @@ author_profile: false
     width: 100%;
     height: auto;
     position: relative;
+    margin-bottom: 2px;
   }
-  .sidenav a {float: left;}
-  div.main {margin-left: 0;}
+  .sidenav a {float: left; display: inline}
+   div.main {margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {
