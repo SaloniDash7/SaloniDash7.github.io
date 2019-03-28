@@ -57,6 +57,10 @@ author_profile: false
               font-size: 4vh; 
               padding: 0px 10px;
             }  
+    .postsback
+      {
+            background-color: hsla(0,0%,0%,0.3);
+      }
   </style>
 </head>
 
@@ -71,9 +75,11 @@ author_profile: false
   <div id="banner" > </div>
   <!--<div class="line-up"></div>
   <div class="line-down"></div> -->
+  <div class="postsback">
   <div class="entries-{{ page.entries_layout }}">
   {% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %}
-</div>
+  </div>
+  </div>
   </div>
   </body>
 </html>  
