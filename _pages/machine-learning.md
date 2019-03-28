@@ -29,7 +29,7 @@ author_profile: false
         }
  .sidenav {
               height: 100%;
-              width: 25vw;
+              width: 23vw;
               position: fixed;
               z-index: 1;
               top: 0;
@@ -53,13 +53,14 @@ author_profile: false
               color: rgba(48, 227, 202, 0.3);
           }
    .main {
-              margin-left: 30vh; 
+              margin-left: 15vw; 
               font-size: 4vh; 
               padding: 0px 10px;
             }  
     .postsback
       {
             background-color: hsla(0,0%,0%,0.3);
+            padding: inherit;
       }
   </style>
 </head>
