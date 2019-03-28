@@ -69,12 +69,13 @@ author_profile: false
     position: relative;
     margin-bottom: 2px;
   }
-  .sidenav a {float: left; display: inline}
+  .sidenav a {float: left; display: inline; }
    div.main {margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {
   .sidenav a {
+    display: inline;
     text-align: center;
     float: none;
   }
