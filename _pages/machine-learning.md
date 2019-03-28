@@ -69,7 +69,7 @@ author_profile: false
     position: relative;
   }
   .sidenav a {float: left;}
-  div.content {margin-left: 0;}
+  div.main {margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {
