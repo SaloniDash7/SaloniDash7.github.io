@@ -62,6 +62,22 @@ author_profile: false
             background-color: hsla(0,0%,0%,0.3);
             padding: inherit;
       }
+   @media screen and (max-width: 700px) {
+    .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidenav a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidenav a {
+    text-align: center;
+    float: none;
+  }
+ }
   </style>
 </head>
 
