@@ -19,7 +19,7 @@ author_profile: false
     background-color:#464646;
     min-height: 80vh
     } 
- #banner {
+ .banner {
             height: 10vh;
             background-image: url(/assets/images/ml-title.png);
             background-repeat: no-repeat;
@@ -62,15 +62,15 @@ author_profile: false
             background-color: hsla(0,0%,0%,0.3);
             padding: inherit;
       }
-   @media screen and (max-width: 700px) {
+   @media screen and (max-width: 800px) {
     .sidenav {
     width: 100%;
     height: auto;
     position: relative;
-    margin-bottom: 2px;
   }
   .sidenav a {float: left; display: inline; }
    div.main {margin-left: 0;}
+   div.banner {margin-top: 5vh;}
 }
 
 @media screen and (max-width: 400px) {
@@ -91,7 +91,7 @@ author_profile: false
        </div>
      
   <div class="main">
-  <div id="banner" > </div>
+  <div class="banner" > </div>
   <!--<div class="line-up"></div>
   <div class="line-down"></div> -->
   <div class="postsback">
