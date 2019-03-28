@@ -19,11 +19,11 @@ entries_layout: list
     background-color:#464646;
     min-height: 80vh
     } 
- #banner {
+ .banner {
             height: 10vh;
             background-image: url(/assets/images/meditations-title.png);
             background-repeat: no-repeat;
-            background-size: 100% 100%;
+            background-size: 90% 100%;
             background-position: center center;
             position: relative;
         }
@@ -62,18 +62,20 @@ entries_layout: list
             background-color: hsla(0,0%,0%,0.3);
             padding: inherit;
       }
-   @media screen and (max-width: 700px) {
+   @media screen and (max-width: 1020px) {
     .sidenav {
     width: 100%;
     height: auto;
     position: relative;
   }
-  .sidenav a {float: left;}
-  div.content {margin-left: 0;}
+  .sidenav a {float: left; display: inline; }
+   div.main {margin-left: 0;}
+   div.banner {margin-top: 5vh;}
 }
 
 @media screen and (max-width: 400px) {
   .sidenav a {
+    display: inline;
     text-align: center;
     float: none;
   }
@@ -89,7 +91,7 @@ entries_layout: list
        </div>
      
   <div class="main">
-  <div id="banner" > </div>
+  <div class="banner" > </div>
   <!--<div class="line-up"></div>
   <div class="line-down"></div> -->
   <div class="postsback">
