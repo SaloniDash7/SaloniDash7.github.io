@@ -23,13 +23,13 @@ entries_layout: list
             height: 10vh;
             background-image: url(/assets/images/meditations-title.png);
             background-repeat: no-repeat;
-            background-size: 50% 95%;
+            background-size: 100% 100%;
             background-position: center center;
             position: relative;
         }
  .sidenav {
               height: 100%;
-              width: 30vh;
+              width: 23vw;
               position: fixed;
               z-index: 1;
               top: 0;
@@ -53,10 +53,31 @@ entries_layout: list
               color: rgba(48, 227, 202, 0.3);
           }
    .main {
-              margin-left: 30vh; 
+              margin-left: 15vw; 
               font-size: 4vh; 
               padding: 0px 10px;
             }  
+    .postsback
+      {
+            background-color: hsla(0,0%,0%,0.3);
+            padding: inherit;
+      }
+   @media screen and (max-width: 700px) {
+    .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidenav a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidenav a {
+    text-align: center;
+    float: none;
+  }
+ }
   </style>
 </head>
 
@@ -71,9 +92,11 @@ entries_layout: list
   <div id="banner" > </div>
   <!--<div class="line-up"></div>
   <div class="line-down"></div> -->
+  <div class="postsback">
   <div class="entries-{{ page.entries_layout }}">
   {% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %}
-</div>
+  </div>
+  </div>
   </div>
   </body>
 </html>  
