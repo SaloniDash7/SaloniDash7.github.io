@@ -62,7 +62,7 @@ author_profile: false
             background-color: hsla(0,0%,0%,0.3);
             padding: inherit;
       }
-   @media screen and (max-width: 1100px) {
+   @media screen and (max-width: 1000px) {
     .sidenav {
     width: 100%;
     height: auto;
