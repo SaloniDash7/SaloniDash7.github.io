@@ -54,7 +54,7 @@ author_profile: false
           }
    .main {
               margin-left: 15vw; 
-              font-size: 4vh; 
+              font-size: 3vh; 
               padding: 0px 10px;
             }  
     .postsback
