@@ -85,7 +85,7 @@ entries_layout: list
 
 <body>
    <div id="mySidenav" class="sidenav">
-     <a href="https://salonidash7.github.io/#">HOME</a>
+     <a href="https://salonidash7.github.io">HOME</a>
      <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a>
      <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
        </div>
