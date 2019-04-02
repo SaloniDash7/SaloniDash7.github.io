@@ -34,7 +34,7 @@ author_profile: false
               z-index: 1;
               top: 0;
               left: 0;
-              background-color: hsla(0,0%,0%,0.3);
+              background-color: hsla(0,0%,0%,0.5);
               overflow-x: hidden;
               transition: 0.5s;
               padding-top: 20px;
