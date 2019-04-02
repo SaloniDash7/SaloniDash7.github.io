@@ -11,7 +11,7 @@ entries_layout: list
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>  
   body {
-    background-image: url(/assets/images/meditations-blur.jpg); 
+    background-image: url(/assets/images/ml-blur.jpg); 
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ entries_layout: list
     } 
  .banner {
             height: 10vh;
-            background-image: url(/assets/images/meditations-title.png);
+            background-image: url(/assets/images/ml-title.png);
             background-repeat: no-repeat;
             background-size: 100% 100%;
             background-position: center center;
@@ -43,7 +43,7 @@ entries_layout: list
    .sidenav a {
               padding: 8px 8px 8px 32px;
               text-decoration: none;
-              font-size: 3vh;
+              font-size: 1.25rem;
               color:#f1f1f1 ;
               display: block;
               transition: 0.3s;
@@ -54,7 +54,7 @@ entries_layout: list
           }
    .main {
               margin-left: 15vw; 
-              font-size: 2.5vh; 
+              font-size: 1.35rem; 
               padding: 0px 10px;
             }  
     .postsback
