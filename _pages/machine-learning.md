@@ -43,7 +43,7 @@ author_profile: false
    .sidenav a {
               padding: 8px 8px 8px 32px;
               text-decoration: none;
-              font-size: 3vh;
+              font-size: 1.25rem;
               color:#f1f1f1 ;
               display: block;
               transition: 0.3s;
@@ -54,7 +54,7 @@ author_profile: false
           }
    .main {
               margin-left: 15vw; 
-              font-size: 2.5vh; 
+              font-size: 1.35rem; 
               padding: 0px 10px;
             }  
     .postsback
