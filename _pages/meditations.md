@@ -11,7 +11,7 @@ entries_layout: list
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>  
   body {
-    background-image: url(/assets/images/ml-blur.jpg); 
+    background-image: url(/assets/images/meditations-blur.jpg); 
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ entries_layout: list
     } 
  .banner {
             height: 10vh;
-            background-image: url(/assets/images/ml-title.png);
+            background-image: url(/assets/images/meditations-title.png);
             background-repeat: no-repeat;
             background-size: 100% 100%;
             background-position: center center;
