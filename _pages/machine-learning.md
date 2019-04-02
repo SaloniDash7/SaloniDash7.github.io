@@ -29,8 +29,8 @@ author_profile: false
         }
  .sidenav {
               height: 100%;
-              width: 23vw;
-              position: fixed;
+              width: 20vw;
+              position: absolute;
               z-index: 1;
               top: 0;
               left: 0;
