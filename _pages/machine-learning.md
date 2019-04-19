@@ -53,13 +53,13 @@ author_profile: false
               color: rgba(48, 227, 202, 0.3);
           }
    .main {
-              margin-left: 15vw; 
+              margin-left: 20vw; 
               font-size: 1.35rem; 
               padding: 0px 10px;
             }  
     .postsback
       {
-            background-color: hsla(0,0%,0%,0.3);
+            background-color: hsla(0,0%,0%,0.4);
             padding: inherit;
       }
    @media screen and (max-width: 1020px) {
