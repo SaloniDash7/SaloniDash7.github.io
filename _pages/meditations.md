@@ -53,7 +53,7 @@ entries_layout: list
               color: rgba(48, 227, 202, 0.3);
           }
    .main {
-              margin-left: 15vw; 
+              margin-left: 20vw; 
               font-size: 1.35rem; 
               padding: 0px 10px;
             }  
