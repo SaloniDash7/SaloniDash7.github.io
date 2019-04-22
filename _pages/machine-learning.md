@@ -27,68 +27,45 @@ author_profile: false
             background-position: center center;
             position: relative;
         }
- .sidenav {
-              height: 100%;
-              width: 20vw;
-              position: absolute;
-              z-index: 1;
-              top: 0;
-              left: 0;
-              background-color: hsla(0,0%,0%,0.5);
-              overflow-x: hidden;
-              transition: 0.5s;
-              padding-top: 20px;
-          }
-          
-   .sidenav a {
-              padding: 8px 8px 8px 32px;
-              text-decoration: none;
-              font-size: 1.25rem;
-              color:#f1f1f1 ;
-              display: block;
-              transition: 0.3s;
-          }
-          
-   .sidenav a:hover {
-              color: rgba(48, 227, 202, 0.3);
-          }
-   .main {
-              margin-left: 20vw; 
-              font-size: 1.35rem; 
-              padding: 0px 10px;
-            }  
-    .postsback
-      {
-            background-color: hsla(0,0%,0%,0.4);
-            padding: inherit;
-      }
-   @media screen and (max-width: 1020px) {
-    .sidenav {
-    width: 100%;
-    height: auto;
-    position: relative;
+
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hsla(0,0%,0%,0.6);
   }
-  .sidenav a {float: left; display: inline; }
-   div.main {margin-left: 0;}
-   div.banner {margin-top: 5vh;}
+
+  ul.topnav li {float: left;}
+
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul.topnav li a:hover:not(.active) {hsla(0,0%,0%,0.8)}
+
+  ul.topnav li a.active {color: rgba(48, 227, 202, 0.3);}
+
+  ul.topnav li.right {float: right;}
+
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
 }
 
-@media screen and (max-width: 400px) {
-  .sidenav a {
-    display: inline;
-    text-align: center;
-    float: none;
-  }
- }
   </style>
 </head>
 
 <body>
-   <div id="mySidenav" class="sidenav">
-     <a href="https://salonidash7.github.io">HOME</a>
-     <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a>
-     <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
-       </div>
+   <ul class = "topnav">
+     <li>  <a href="https://salonidash7.github.io">HOME</a> </li>
+     <li> <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a> </li>
+     <li> <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a> </li>
+       </ul>
      
   <div class="main">
   <div class="banner" > </div>
