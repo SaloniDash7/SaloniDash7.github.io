@@ -26,6 +26,7 @@ author_profile: false
             background-size: 100% 100%;
             background-position: center center;
             position: relative;
+            margin-top: 4vh
         }
 
   ul.topnav {
