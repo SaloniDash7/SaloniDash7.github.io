@@ -56,7 +56,11 @@ author_profile: false
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
-
+.postsback
+      {
+            background-color: hsla(0,0%,0%,0.4);
+            padding: inherit;
+      }
   </style>
 </head>
 
