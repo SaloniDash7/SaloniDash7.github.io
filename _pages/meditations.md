@@ -59,7 +59,7 @@ entries_layout: list
             }  
     .postsback
       {
-            background-color: hsla(0,0%,0%,0.3);
+            background-color: hsla(0,0%,0%,0.4);
             padding: inherit;
       }
    @media screen and (max-width: 1020px) {
