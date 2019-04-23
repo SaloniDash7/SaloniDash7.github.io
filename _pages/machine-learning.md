@@ -95,7 +95,7 @@ author_profile: false
      <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
        </div>
   <div id = "menu" class="menubtn">
-  <span style="font-size:50px;cursor:pointer;background-color: black; padding: 46px 50px;" onclick="openNav()"><i class="fa fa-bars"></i></span>   
+  <span style="font-size:50px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars"></i> <p style = "font-size: 30px" > MENU </p> </span>   
   </div>
   
   <div class="main">
@@ -118,7 +118,7 @@ author_profile: false
   function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
       document.getElementById("main").style.marginLeft= "0";
-      document.getElementById("menu").style.marginLeft = "12vw";
+      document.getElementById("menu").style.marginLeft = "0";
   }
   </script>
   </body>
