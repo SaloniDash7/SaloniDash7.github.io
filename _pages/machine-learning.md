@@ -60,6 +60,7 @@ author_profile: false
       font-size: 36px;
       margin-left: 50px;
   }
+  
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -78,6 +79,11 @@ author_profile: false
             
       }
  
+ .menubtn
+ {
+  margin-left:0;
+ }
+ 
   </style>
 </head>
 
@@ -88,8 +94,10 @@ author_profile: false
      <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a>
      <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
        </div>
+  <div id = "menu" class="menubtn">
+  <span style="font-size:50px;cursor:pointer;background-color: black; padding: 46px 50px;" onclick="openNav()"><i class="fa fa-bars"></i></span>   
+  </div>
   
-  <span style="font-size:50px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars"></i></span>   
   <div class="main">
   <div class="banner" > </div>
   <!--<div class="line-up"></div>
@@ -105,10 +113,12 @@ author_profile: false
   function openNav() {
       document.getElementById("mySidenav").style.width = "16vw";
       document.getElementById("main").style.marginLeft = "4vw";
+      document.getElementById("menu").style.marginLeft = "12vw";
   }
   function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
       document.getElementById("main").style.marginLeft= "0";
+      document.getElementById("menu").style.marginLeft = "12vw";
   }
   </script>
   </body>
