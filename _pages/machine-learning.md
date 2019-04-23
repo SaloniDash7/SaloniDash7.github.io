@@ -27,7 +27,7 @@ author_profile: false
             background-size: 100% 100%;
             background-position: center center;
             position: relative;
-            margin-top: 4vh
+            margin-top: 1vh;
         }
 
   .sidenav {
@@ -82,6 +82,7 @@ author_profile: false
  .menubtn
  {
   margin-left:0;
+  margin-top: 1vh;
  }
  
   </style>
@@ -95,7 +96,7 @@ author_profile: false
      <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
        </div>
   <div id = "menu" class="menubtn">
-  <span style="font-size:50px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars"></i> <p style = "font-size: 30px" > MENU </p> </span>   
+  <span style="font-size:50px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars"></i> <span style = "font-size: 30px" > MENU </span> </span>   
   </div>
   
   <div class="main">
