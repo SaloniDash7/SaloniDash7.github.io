@@ -9,6 +9,7 @@ author_profile: false
 <html>
   <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0">
 <style>  
   body {
     background-image: url(/assets/images/ml-blur.jpg); 
@@ -34,7 +35,7 @@ author_profile: false
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: hsla(0,0%,0%,0.6);
+    background-color: hsla(0,0%,0%,0.4);
   }
 
   ul.topnav li {float: left;}
@@ -45,6 +46,8 @@ author_profile: false
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-bottom: #11999e;
+    font-size: 3vh;
   }
 
   ul.topnav li a:hover:not(.active) {hsla(0,0%,0%,0.8)}
@@ -60,13 +63,13 @@ author_profile: false
 
 .main
 {
-  padding-right: 12vw;
-  padding-left: 12vw;
+  padding-right: 14vw;
+  padding-left: 14vw;
 }
 .postsback
       {
             background-color: hsla(0,0%,0%,0.4);
-            padding: inherit;
+            
       }
  
   </style>
@@ -74,7 +77,7 @@ author_profile: false
 
 <body>
    <ul class = "topnav">
-     <li>  <a href="https://salonidash7.github.io">HOME</a> </li>
+     <li>  <a href="https://salonidash7.github.io"><i class="fa fa-home"></i></a> </li>
      <li class="right"> <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a> </li>
      <li class = "right"> <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a> </li>
        </ul>
