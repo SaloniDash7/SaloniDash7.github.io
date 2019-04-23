@@ -77,7 +77,7 @@ author_profile: false
 
 <body>
    <ul class = "topnav">
-     <li>  <a href="https://salonidash7.github.io"><i class="fa fa-home"></i></a> </li>
+     <li>  <a href="https://salonidash7.github.io"><i class="fa fa-home"></i> HOME</a> </li>
      <li class="right"> <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a> </li>
      <li class = "right"> <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a> </li>
        </ul>
