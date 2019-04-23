@@ -46,7 +46,7 @@ author_profile: false
       padding: 8px 8px 8px 32px;
       text-decoration: none;
       font-size: 25px;
-      color: ##f1f1f1;
+      color: #f1f1f1;
       display: block;
       transition: 0.3s;
   }
@@ -89,7 +89,7 @@ author_profile: false
      <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
        </div>
   
-  <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>   
+  <span style="font-size:50px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars"></i> MENU </span>   
   <div class="main">
   <div class="banner" > </div>
   <!--<div class="line-up"></div>
