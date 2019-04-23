@@ -30,35 +30,41 @@ author_profile: false
             margin-top: 4vh
         }
 
-  ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: hsla(0,0%,0%,0.4);
+  .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: hsla(0,0%,0%,0.4);
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+  }
+  .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+  }
+  .sidenav a:hover {
+      color: #f1f1f1;
+  }
+  .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
   }
 
-  ul.topnav li {float: left;}
-
-  ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-bottom: #11999e;
-    font-size: 3vh;
-  }
-
-  ul.topnav li a:hover:not(.active) {hsla(0,0%,0%,0.8)}
-
-  ul.topnav li a.active {color: rgba(48, 227, 202, 0.3);}
-
-  ul.topnav li.right {float: right;}
-
-  @media screen and (max-width: 600px) {
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .main { padding-left: 0vw; padding-right: 0vw; }
 }
 
 .main
@@ -76,13 +82,15 @@ author_profile: false
 </head>
 
 <body>
-   <ul class = "topnav">
-     <li>  <a href="https://salonidash7.github.io"><i class="fa fa-home"></i> HOME</a> </li>
-     <li class="right"> <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a> </li>
-     <li class = "right"> <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a> </li>
-       </ul>
+   <div id = "mySidenav" class = "sidenav">
+     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+     <a href="https://salonidash7.github.io">HOME</a> 
+     <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a>
+     <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
+       </div>
      
   <div class="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
   <div class="banner" > </div>
   <!--<div class="line-up"></div>
   <div class="line-down"></div> -->
@@ -92,5 +100,16 @@ author_profile: false
   </div>
   </div>
   </div>
+  
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "16vw";
+      document.getElementById("main").style.marginLeft = "4vw";
+  }
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
   </body>
 </html>  
