@@ -89,7 +89,7 @@ author_profile: false
      <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
        </div>
   
-  <span style="font-size:50px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars"></i> MENU </span>   
+  <span style="font-size:50px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars"></i></span>   
   <div class="main">
   <div class="banner" > </div>
   <!--<div class="line-up"></div>
