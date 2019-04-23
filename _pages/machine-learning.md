@@ -26,10 +26,11 @@ author_profile: false
             background-size: 100% 100%;
             background-position: center center;
             position: relative;
+            margin-top: 3.5vh
         }
  .sidenav {
               height: 100%;
-              width: 14vw;
+              width: 20vw;
               position: absolute;
               z-index: 1;
               top: 0;
@@ -53,9 +54,6 @@ author_profile: false
               color: rgba(48, 227, 202, 0.3);
           }
    .main {
-              margin-left: 14vw; 
-              padding-left: 2vw;
-              padding-right: 14vw;
               font-size: 1.35rem; 
               padding: 0px 10px;
             }  
