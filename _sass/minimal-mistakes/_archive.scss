@@ -8,14 +8,14 @@
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: 0vw;
-    padding-left: 0vw;
+    padding-right: 22vw;
+    padding-left: 14vw;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: 0vw;
-    padding-left: 0vw;
+    padding-right: 22vw;
+    padding-left: 14vw;
   }
 }
 
@@ -354,13 +354,13 @@
   .wide {
   .archive {
     @include breakpoint($large) {
-      padding-right: 0vw;
-      padding-left: 0vw;
+      padding-right: 22vw;
+      padding-left: 14vw;
     }
 
     @include breakpoint($x-large) {
-      padding-right: 0vw;
-      padding-left: 0vw;
+      padding-right: 22vw;
+      padding-left: 14vw;
     }
   }
 }
