@@ -46,12 +46,12 @@ author_profile: false
       padding: 8px 8px 8px 32px;
       text-decoration: none;
       font-size: 25px;
-      color: #818181;
+      color: ##f1f1f1;
       display: block;
       transition: 0.3s;
   }
   .sidenav a:hover {
-      color: #f1f1f1;
+      color:rgba(48, 227, 202, 0.3);
   }
   .sidenav .closebtn {
       position: absolute;
@@ -88,9 +88,9 @@ author_profile: false
      <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a>
      <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
        </div>
-     
+  
+  <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>   
   <div class="main">
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
   <div class="banner" > </div>
   <!--<div class="line-up"></div>
   <div class="line-down"></div> -->
