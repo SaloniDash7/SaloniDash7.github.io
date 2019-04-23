@@ -55,12 +55,11 @@ author_profile: false
           }
    .main {
               font-size: 1.35rem; 
-              padding: 0px 10px;
             }  
     .postsback
       {
             background-color: hsla(0,0%,0%,0.4);
-            padding: inherit;
+            padding: 0px 10px;
       }
    @media screen and (max-width: 1020px) {
     .sidenav {
