@@ -73,7 +73,7 @@ author_profile: false
    div.banner {margin-top: 5vh;}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .sidenav a {
     text-align: center;
     float: none;
