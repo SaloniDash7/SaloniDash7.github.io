@@ -66,6 +66,7 @@ author_profile: false
     width: 100%;
     height: auto;
     position: relative;
+    padding-top: 0px;
   }
   .sidenav a {float: none; text-align:center; }
    div.main {margin-left: 0;}
@@ -73,10 +74,11 @@ author_profile: false
 }
 
 @media screen and (max-width: 400px) {
+  .sidenav { padding-right: 7vw; }
   .sidenav a {
     text-align: center;
     float: none;
-  }
+    }
  }
   </style>
 </head>
