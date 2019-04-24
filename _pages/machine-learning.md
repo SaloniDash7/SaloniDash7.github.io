@@ -77,7 +77,7 @@ author_profile: false
   .sidenav a {
     text-align: center;
     float: none;
-    margin-right: 7vw;
+    margin-right: 9vw;
     }
  }
   </style>
