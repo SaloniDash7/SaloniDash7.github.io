@@ -26,6 +26,7 @@ entries_layout: list
             background-size: 100% 100%;
             background-position: center center;
             position: relative;
+            margin-top: 3.5vh
         }
  .sidenav {
               height: 100%;
@@ -53,32 +54,30 @@ entries_layout: list
               color: rgba(48, 227, 202, 0.3);
           }
    .main {
-              margin-left: 20vw; 
               font-size: 1.35rem; 
-              padding: 0px 10px;
             }  
     .postsback
       {
             background-color: hsla(0,0%,0%,0.4);
-            padding: inherit;
+            padding: 0px 10px;
       }
    @media screen and (max-width: 1020px) {
     .sidenav {
     width: 100%;
     height: auto;
     position: relative;
+    padding-top: 0px;
   }
-  .sidenav a {float: left; display: inline; }
+  .sidenav a {float: none; text-align:center; margin-right: 9vw;}
    div.main {margin-left: 0;}
    div.banner {margin-top: 5vh;}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .sidenav a {
-    display: inline;
     text-align: center;
     float: none;
-  }
+    }
  }
   </style>
 </head>
