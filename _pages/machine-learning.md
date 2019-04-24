@@ -74,17 +74,17 @@ author_profile: false
 }
 
 @media screen and (max-width: 400px) {
-  .sidenav { padding-right: 7vw; }
   .sidenav a {
     text-align: center;
     float: none;
+    margin-right: 7vw;
     }
  }
   </style>
 </head>
 
 <body>
-   <div id="mySidenav" class="sidenav">
+   <div id="mySidenav" class="sidenav" style = "padding-right: 7vw;">
      <a href="https://salonidash7.github.io">HOME</a>
      <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a>
      <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
