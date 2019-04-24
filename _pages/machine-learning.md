@@ -86,9 +86,9 @@ author_profile: false
 
 <body>
    <div id="mySidenav" class="sidenav">
-     <a href="https://salonidash7.github.io" class="w3-border-bottom">HOME</a>
-     <a href="https://salonidash7.github.io/categories/ml/" class = "w3-border-bottom">MACHINE LEARNING</a>
-     <a href="https://salonidash7.github.io/categories/meditations/" class = "w3-border-bottom">MEDITATIONS</a>
+     <a href="https://salonidash7.github.io">HOME</a>
+     <a href="https://salonidash7.github.io/categories/ml/">MACHINE LEARNING</a>
+     <a href="https://salonidash7.github.io/categories/meditations/">MEDITATIONS</a>
        </div>
      
   <div class="main">
