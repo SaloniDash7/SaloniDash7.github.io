@@ -63,11 +63,10 @@ author_profile: false
       }
    @media screen and (max-width: 1020px) {
     .sidenav {
-    width: 110%;
+    width: 100%;
     height: auto;
     position: relative;
     padding-top: 0px;
-    margin-left: -1em;
   }
   .sidenav a {float: none; text-align:center; margin-right: 9vw;}
    div.main {margin-left: 0;}
