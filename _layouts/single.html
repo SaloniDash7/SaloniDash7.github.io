@@ -1,7 +1,23 @@
 ---
 layout: default
 ---
-
+<html>
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>  
+  body {
+    background-image: url(/assets/images/posts-backg.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#464646;
+    min-height: 80vh
+    } 
+  </style>
+  </head>
+<body>
+  
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
@@ -17,6 +33,7 @@ layout: default
 <div id="main" role="main" style="background-color:white; color:black">
   {% include sidebar.html %}
 
+  <div id="postback"  style="background-color:white">
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -89,4 +106,7 @@ layout: default
       </div>
     </div>
   {% endif %}
+  </div>
 </div>
+  </body>
+</html>
