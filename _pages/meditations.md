@@ -20,7 +20,7 @@ entries_layout: list
     min-height: 80vh
     } 
  .banner {
-            height: 8vh;
+            height: 10vh;
             background-image: url(/assets/images/meditations-title.png);
             background-repeat: no-repeat;
             background-size: 100% 100%;
