@@ -39,6 +39,7 @@ body {
 .topnav .icon {
   display: none;
   font-size: 5vh;
+  margin-right:3.5vw
 }
 
 @media screen and (max-width: 600px) {
@@ -47,14 +48,16 @@ body {
     float: right;
     display: block;
   }
+  .topnav a:hover {
+  background-color:  hsla(0,0%,0%,0.3);
 }
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
-    right: 1vw;
-    top: 2vw;
+    right: 0;
+    top: 0;
   }
   .topnav.responsive a {
     float: none;
