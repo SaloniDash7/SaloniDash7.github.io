@@ -68,7 +68,7 @@ author_profile: false
     position: relative;
     padding-top: 0px;
   }
-  .sidenav a {float: none; text-align:center; margin-right: 7vw;}
+  .sidenav a {float: none; text-align:center; margin-right: 8vw;}
    div.main {margin-left: 0;}
    div.banner {margin-top: 5vh;}
 }
