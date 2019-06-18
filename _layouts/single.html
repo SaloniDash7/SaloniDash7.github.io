@@ -24,7 +24,6 @@ layout: default
     min-height: 80vh">
   {% include sidebar.html %}
 
-<div id="back" style="background-color:hsla(0,0%,99%,0.9)">
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork" style="background-color:hsla(0,0%,99%,0.9); 
                                                                              background-clip:content-box; min-height:100vh">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -98,6 +97,5 @@ layout: default
       </div>
     </div>
   {% endif %}
-  </div>
 </div>
  
