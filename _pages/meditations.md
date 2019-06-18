@@ -68,7 +68,7 @@ entries_layout: list
     position: relative;
     padding-top: 0px;
   }
-  .sidenav a {float: none; text-align:center; margin-right: 9vw;}
+  .sidenav a {float: none; text-align:center;}
    div.main {margin-left: 0;}
    div.banner {margin-top: 5vh;}
 }
