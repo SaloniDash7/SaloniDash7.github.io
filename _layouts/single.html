@@ -81,8 +81,8 @@ layout: default
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related" style="background-color:hsla(0,0%,99%,0.9);background-clip:content-box; margin-bottom:4vh">
-      <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-      <div class="grid__wrapper">
+      <h4 class="page__related-title" style="padding-left:2vw;padding-right:2vw">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
+      <div class="grid__wrapper" style="padding-left:2vw;padding-right:2vw">
         {% for post in site.related_posts limit:4 %}
           {% include archive-single.html type="grid" %}
         {% endfor %}
@@ -90,8 +90,8 @@ layout: default
   {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
   {% elsif page.id and page.related %}
     <div class="page__related" style="background-color:hsla(0,0%,99%,0.9);background-clip:content-box; margin-bottom:4vh">
-      <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-      <div class="grid__wrapper">
+      <h4 class="page__related-title" style="padding-left:2vw;padding-right:2vw">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
+      <div class="grid__wrapper" style="padding-left:2vw;padding-right:2vw">
         {% for post in site.posts limit:4 %}
           {% include archive-single.html type="grid" %}
         {% endfor %}
