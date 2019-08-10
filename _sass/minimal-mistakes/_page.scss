@@ -24,14 +24,14 @@
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: 20vw;
-    padding-left: 20vw;
+    padding-right: 22vw;
+    padding-left: 22vw;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: 20vw;
-    padding-left: 20vw;
+    padding-right: 22vw;
+    padding-left: 22vw;
   }
 
   .page__inner-wrap {
@@ -478,14 +478,14 @@
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 22vw;
+    padding-right: 22vw;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 22vw;
+    padding-right: 22vw;
   }
 
   a {
