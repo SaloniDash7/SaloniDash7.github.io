@@ -1,5 +1,5 @@
 ---
-title: "CLIMATE CHANGE, FAKE OR REAL? TIME SERIES ANALYSIS"
+title: "CLIMATE CHANGE, FAKE OR REAL? A TIME SERIES ANALYSIS"
 categories:
   - Machine-Learning
 tags:
