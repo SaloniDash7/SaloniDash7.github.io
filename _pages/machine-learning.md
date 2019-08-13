@@ -42,7 +42,7 @@ author_profile: false
           }
           
    .sidenav a {
-              padding: 8px 8px 8px 32px;
+              padding: 14px 16px;
               text-decoration: none;
               font-size: 1.25rem;
               color:#f1f1f1 ;
@@ -68,7 +68,7 @@ author_profile: false
     position: relative;
     padding-top: 0px;
   }
-  .sidenav a {float: none; text-align:center; margin-right: 0vw; font-size: 1.5rem;}
+  .sidenav a {float: none; text-align:center; margin-right: 0vw; font-size: 3vh;}
    div.main {margin-left: 0;}
    div.banner {margin-top: 5vh;}
 }
